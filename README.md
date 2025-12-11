@@ -28,7 +28,7 @@ It illustrates all primary entities, their attributes, and the relationships bet
 
 ### ** ER Diagram**
 
-![ER Diagram](279551077-1cebefcc-f435-4010-a34e-ac34f18289fd.png)
+![ER Diagram](erd.png)
 
 ### **ERD Summary**
 - **USERS** perform **OPERATIONS** using tickets.
