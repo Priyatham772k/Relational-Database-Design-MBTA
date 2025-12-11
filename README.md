@@ -68,16 +68,32 @@ AES-256 encryption of sensitive user data, ensuring privacy and compliance.
 Non-clustered indexes added to speed up common lookups and analytical queries.
 
 
-##  Project Structure
- Boston-Transit-Database-Project
-┣  SchemaANDInsertionQueries.sql
-┣  DMDD Final Project SP.sql
-┣  dmdd final project trigger.sql
-┣  DMDD Final Project view.sql
-┣  UDF.sql
-┣  non-clustered index.sql
-┣  data encryption dmdd final project.sql
-┗  README.md
+
+### **Folder Details**
+- **Deliverables_4_Fall23/**  
+  Contains the full SQL implementation of the transit system:
+  - Schema creation  
+  - Data insertion  
+  - Stored procedures  
+  - Views  
+  - Triggers  
+  - Indexes  
+  - Encryption scripts  
+  - UDFs  
+
+- **Deliverables_2_Fall23.pdf**  
+  Early-phase project documentation (requirements, ER diagram drafts, business rules).
+
+- **Deliverables_3_Fall23.pdf**  
+  Mid-phase deliverable including refined ERD, data model, and relational mapping.
+
+- **erd.png**  
+  Final Entity–Relationship Diagram used in the project.
+
+- **README.md**  
+  Project documentation and overview.
+
+
 ##  Example Use Cases
 
 - Identify high-utilization transit users  
