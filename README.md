@@ -21,6 +21,26 @@ It includes end-to-end SQL development:
 The project mirrors real-world database scenarios used in healthcare, public transit, and enterprise BI systems.
 
 ---
+##  Entity–Relationship Diagram (ERD)
+
+The following ERD represents the complete relational model of the Boston Transit Database System.  
+It illustrates all primary entities, their attributes, and the relationships between users, tickets, operations, routes, lines, stations, transportation methods, and drivers.
+
+### ** ER Diagram**
+
+![ER Diagram](279551077-1cebefcc-f435-4010-a34e-ac34f18289fd.png)
+
+### **ERD Summary**
+- **USERS** perform **OPERATIONS** using tickets.
+- **TICKETS** can be of type **CARD** or **PASS**, with recharge activity tracked.
+- **OPERATIONS** authorize **TRANSIT** events.
+- **ROUTE** and **LINE** tables connect to **STATION** via associative tables.
+- **BUS** and **TRAIN** tables store vehicle details.
+- **DRIVER** entities link to vehicles via many-to-many relationships.
+
+This ERD demonstrates a well-structured, normalized relational schema designed to support analytics, operational reporting, and business rules enforcement.
+
+---
 
 ##  Key Features
 
